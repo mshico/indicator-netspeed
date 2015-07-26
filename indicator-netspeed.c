@@ -191,7 +191,7 @@ gboolean update() {
     get_net(net_traffic);
     int net_down = net_traffic[0];
     int net_up = net_traffic[1];
-    int net_total = net_down + net_up;
+    int net_total = net_down;
 
     gchar *indicator_label = format_net_label(net_total, true);
     gchar *label_guide = "10000.00 MiB/s";   //maximum length label text, doesn't really work atm
