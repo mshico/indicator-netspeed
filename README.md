@@ -1,7 +1,7 @@
 Network speed indicator for Unity
 =================================
 
-![]()
+![Imgur](http://i.imgur.com/r3Drb5k.png)
 
 Usage
 -----
